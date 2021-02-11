@@ -1,5 +1,5 @@
 .navbar {
-    display: flex;
+    display: inline-flex;
     background-color: blueviolet;
     height: 5vh;
     width: 100vw;
