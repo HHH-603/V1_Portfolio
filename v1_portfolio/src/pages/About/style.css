@@ -1,0 +1,21 @@
+.profile-picture-container {
+    height: 40vh;
+    width: 100vw;
+}
+
+.profile-picture {
+    height: 40vh;
+    width: 100vw;
+}
+
+@media screen and (max-width: 280px) {
+    .profile-picture-container {
+        height: 40vh;
+        width: 100vw;
+    }
+    
+    .profile-picture {
+        height: 40vh;
+        width: 100vw;
+    }
+}

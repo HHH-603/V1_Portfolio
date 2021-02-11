@@ -1,0 +1,23 @@
+.about-details {
+    background-color: lawngreen;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 45vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 280px) {
+    .about-details {
+        background-color: lawngreen;
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        height: 45vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+}

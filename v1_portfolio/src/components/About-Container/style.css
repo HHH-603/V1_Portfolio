@@ -1,6 +1,11 @@
 .about-container {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    padding: 1rem;
+    height: 90vh;
+    width: 100vw;
+}
+
+@media screen and (max-width: 280px) {
+    .about-container {
+        height: 90vh;
+        width: 100vw;
+    }
 }

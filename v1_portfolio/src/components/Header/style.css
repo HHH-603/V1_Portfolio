@@ -1,0 +1,21 @@
+.header {
+    display: inline-flex;
+    background-color: khaki;
+    height: 5vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5rem;
+}
+
+@media screen and (max-width: 280px) {
+    .header {
+        display: inline-flex;
+        background-color: khaki;
+        height: 5vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        padding-top: .5rem;
+    }    
+}

@@ -1,0 +1,9 @@
+.about-details-paragraph {
+    padding: 2rem;
+}
+
+@media screen and (max-width: 280px) {
+    .about-details-paragraph {
+        padding: 2rem;
+    }
+}
