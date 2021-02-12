@@ -3,7 +3,8 @@
     height: 5vh;
     width: 100%;
     align-items: center;
-    padding-top: .5rem;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .header::after {
