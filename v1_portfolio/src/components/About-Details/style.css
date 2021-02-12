@@ -5,6 +5,7 @@
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    overflow: hidden;
 }
 
 .about-details::after {

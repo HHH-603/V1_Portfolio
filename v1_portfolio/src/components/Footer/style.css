@@ -1,10 +1,11 @@
 .footer {
-    display: inline-flex;
-    height: 5%;
+    display: flex;
+    height: auto;
     width: 100%;
     align-items: center;
     justify-content: center;
     position: fixed;
     bottom: 0;
-    background-color: white;
+    padding: 1rem 0;
+    background-color: tomato;
 }

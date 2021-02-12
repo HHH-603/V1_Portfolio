@@ -9,6 +9,8 @@
   html {
     font-family: "josefin sans", sans-serif;
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
   }
   
   body {
@@ -32,23 +34,3 @@
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
-
-@media screen and (max-width: 280px) {
-  h1 {
-    text-align: center;
-    font-size: 2rem;
-    line-height: 3rem;
-  }
-  
-  h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-  }
-  
-  p {
-    text-align: justify;
-    font-size: .9rem;
-    line-height: 1.9rem;
-  }
-}

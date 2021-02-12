@@ -1,6 +1,7 @@
 .skill-set {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     justify-content: space-evenly;
     margin: 2rem 0;
 }

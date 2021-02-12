@@ -1,21 +1,9 @@
 .about-container {
-    height: 85%;
+    height: auto;
     width: 100%;
 }
 .about-container::after {
     content: "";
     clear: both;
     display: table;       
-}
-
-@media screen and (max-width: 280px) {
-    .about-container {
-        height: 85%;
-        width: 100%;
-    }
-    .about-container::after {
-        content: "";
-        clear: both;
-        display: table;       
-    }    
 }
