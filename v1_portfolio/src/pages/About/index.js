@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/index";
-import ProfilePicture from "../../images/profile-picture.png";
+// import ProfilePicture from "../../images/profile-picture.png";
 import AboutContainer from "../../components/About-Container/index";
 import AboutDetails from "../../components/About-Details";
 import SkillSet from "../../components/Skill-Set/index";
@@ -28,9 +28,9 @@ const About = () => {
                 <Header>
                     <h1>About</h1>
                 </Header>
-                <div className="profile-picture-container">
+                {/* <div className="profile-picture-container">
                     <img src={ProfilePicture} alt="profile" className="profile-picture" />
-                </div>
+                </div> */}
                 <AboutDetails>
                     <h2 className="greeting">{greeting()}</h2>
                     <div className="about-details">
