@@ -1,5 +1,5 @@
 .about-container {
-    height: 85vh;
+    height: 85%;
     width: 100%;
 }
 .about-container::after {
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 280px) {
     .about-container {
-        height: 85vh;
+        height: 85%;
         width: 100%;
     }
     .about-container::after {
