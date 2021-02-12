@@ -1,21 +1,14 @@
 .header {
-    display: inline-flex;
-    background-color: khaki;
+    display: flex;
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    padding-top: .5rem;
+    padding: .5rem 0 0 0;
 }
 
-@media screen and (max-width: 280px) {
-    .header {
-        display: inline-flex;
-        background-color: khaki;
-        height: 5vh;
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-        padding-top: .5rem;
-    }    
+.header::after {
+    content: "";
+        clear: both;
+        display: table;       
 }

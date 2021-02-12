@@ -1,21 +1,26 @@
 .profile-picture-container {
-    height: 40vh;
-    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+.profile-picture-container::after {
+    content: "";
+    clear: both;
+    display: table;       
 }
 
 .profile-picture {
-    height: 40vh;
-    width: 100vw;
+    height: 10%;
+    width: 20%;
+    border-radius: 50%;
 }
 
-@media screen and (max-width: 280px) {
-    .profile-picture-container {
-        height: 40vh;
-        width: 100vw;
-    }
-    
-    .profile-picture {
-        height: 40vh;
-        width: 100vw;
-    }
+
+.about-details {
+    display: flex;
+}
+
+.about-details-paragraph {
+    width: 100%;
 }

@@ -1,31 +1,15 @@
 .navbar {
-    display: inline-flex;
-    background-color: blueviolet;
+    display: flex;
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     justify-content: flex-end;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar__nav-link {
     text-decoration: none;
     padding: 0 1rem;
     color: black;
-}
-
-@media screen and (max-width: 280px) {
-    .navbar {
-        display: inline-flex;
-        background-color: blueviolet;
-        height: 5vh;
-        width: 100vw;
-        align-items: center;
-        justify-content: flex-end;
-    }
-    
-    .navbar__nav-link {
-        text-decoration: none;
-        padding: 0 1rem;
-        color: black;
-    }
 }

@@ -1,11 +1,21 @@
 .about-container {
-    height: 90vh;
-    width: 100vw;
+    height: 85vh;
+    width: 100%;
+}
+.about-container::after {
+    content: "";
+    clear: both;
+    display: table;       
 }
 
 @media screen and (max-width: 280px) {
     .about-container {
-        height: 90vh;
-        width: 100vw;
+        height: 85vh;
+        width: 100%;
     }
+    .about-container::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }    
 }

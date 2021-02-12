@@ -1,39 +1,20 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: initial;
-}
-
-html {
-  font-family: "josefin sans", sans-serif;
-  font-size: 62.5%;
-}
-
-body {
-  box-sizing: border-box;
-}
-
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  line-height: 4rem;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  line-height: 3.5rem;
-}
-
-p {
-  text-align: justify;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-}
-
-@media screen and (max-width: 280px) {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+  }
+  
+  html {
+    font-family: "josefin sans", sans-serif;
+    font-size: 62.5%;
+  }
+  
+  body {
+    box-sizing: border-box;
+  }
+  
   h1 {
     text-align: center;
     font-size: 3rem;
@@ -50,5 +31,24 @@ p {
     text-align: justify;
     font-size: 1.5rem;
     line-height: 2.5rem;
+  }
+
+@media screen and (max-width: 280px) {
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  
+  p {
+    text-align: justify;
+    font-size: .9rem;
+    line-height: 1.9rem;
   }
 }

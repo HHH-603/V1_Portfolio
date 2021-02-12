@@ -1,19 +1,9 @@
 .footer {
     display: inline-flex;
-    background-color: cornflowerblue;
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     justify-content: center;
-}
-
-@media screen and (max-width: 280px) {
-    .footer {
-        display: inline-flex;
-        background-color: cornflowerblue;
-        height: 5vh;
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-    }
+    position: fixed;
+    bottom: 0;
 }

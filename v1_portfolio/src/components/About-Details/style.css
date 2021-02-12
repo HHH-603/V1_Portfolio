@@ -1,23 +1,14 @@
 .about-details {
-    background-color: lawngreen;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    height: 45vh;
-    width: 100vw;
-    margin: 0;
+    height: auto;
+    margin: 2rem 11rem;
     padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
 }
 
-@media screen and (max-width: 280px) {
-    .about-details {
-        background-color: lawngreen;
-        display: flex;
-        align-items: center;
-        flex-flow: row wrap;
-        height: 45vh;
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-    }
+.about-details::after {
+    content: "";
+    clear: both;
+    display: table;       
 }
