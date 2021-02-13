@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "src/images/pwa-budget-tracker.png",
+        "image": "./pwa-budget-tracker.png",
         "name": "PWA Budget Tracker",
         "description": "Resource where users can easily track their money (purchases and deposits), both online and offline.",
         "technologies": "JavaScript, HTML5, Bootstrap, and MongoDB.",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "src/images/note-taker-app.png",
+        "image": "./note-taker-app.png",
         "name": "Note Taker Web Application",
         "description": "Resource where users can write, save, and delete notes.",
         "technologies": "JavaScript, Node.js, HTML5, and Bootstrap.",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "image": "src/images/readme-generator.png",
+        "image": "./readme-generator.png",
         "name": "README Generator",
         "description": "Resource that uses Node.js to prompt questions about an assignment for users to answer, and then generates a fully formatted README with their responses.",
         "technologies": "Node.js.",
