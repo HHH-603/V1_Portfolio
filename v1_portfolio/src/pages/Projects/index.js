@@ -1,5 +1,4 @@
 import React from "react";
-import projects from "../../projects.json";
 import Header from "../../components/Header/index";
 import ProjectContainer from "../../components/Project-Container";
 import ProjectCard from "../../components/Project-Card";
