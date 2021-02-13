@@ -1,19 +1,9 @@
 .project-card {
-    height: auto;
-    width: auto;
+    max-height: auto;
+    max-width: 30%;
+    display: flex;
+    flex-flow: row wrap;
     flex: 1;
-}
-
-.project-card > .image-container {
-    height: 50%;
-    overflow: hidden;
-    text-align: center;
-}
-
-.project-card > .image-container > img {
-    width: 50%;
-}
-
-.card > .content {
-    padding: 0 1rem;
+    margin: 1rem 2rem;
+    border: .1rem solid #0D0D0D;
 }

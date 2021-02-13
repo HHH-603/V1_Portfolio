@@ -1,0 +1,30 @@
+.image-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.project-image {
+    height: 25rem;
+    width: 50rem;
+}
+
+.project-paragraph {
+    margin: 1rem;
+    text-align: left;
+    font-style: .5rem;
+}
+
+.project-paragraph-link {
+    text-align: center;
+}
+
+.project-paragraph-link > a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+.project-paragraph-link > a:hover {
+    border-bottom: .1rem solid #0D0D0D;
+}

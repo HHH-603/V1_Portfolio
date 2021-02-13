@@ -39,7 +39,7 @@ const About = () => {
                         </p>
                         <br />
                         <p className="about-details-paragraph">
-                            I am a what? graduate of the University of North Carolina at Charlotte, and previously worked at EveryAction, a nonprofit CRM/SaaS company in Washington, DC. A few technologies and frameworks that I've been working with recently are:
+                            I am a graduate of the University of North Carolina at Charlotte, and previously worked at EveryAction, a nonprofit CRM/SaaS company in Washington, DC. A few technologies and frameworks that I've been working with recently are:
                         </p>
                     </div>
                     <SkillSet />

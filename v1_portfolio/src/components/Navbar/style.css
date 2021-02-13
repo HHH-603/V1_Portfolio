@@ -9,6 +9,7 @@
 
 .navbar__nav-link {
     text-decoration: none;
+    color: #0D0D0D;
     margin: 0 .5rem;
     padding: 0;
 }
@@ -18,5 +19,5 @@
 }
 
 .navbar__nav-link:hover {
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #0D0D0D;
 }
