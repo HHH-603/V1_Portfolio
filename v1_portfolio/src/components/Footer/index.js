@@ -3,7 +3,12 @@ import "./style.css";
 
 const Footer = () => {
     return (
-        <footer className="footer">Hank Holmes, Full Stack Web Developer</footer>
+        <>
+            <footer className="footer">
+                <p>Hank Holmes, Full Stack Web Developer</p>
+            </footer>
+            <br />
+        </>
     );
 };
 

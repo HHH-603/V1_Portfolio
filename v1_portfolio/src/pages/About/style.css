@@ -1,7 +1,7 @@
 .profile-picture-container {
     height: auto;
     text-align: center;
-    padding: 2rem 0 0 0;
+    padding-top: 2rem;
 }
 
 .profile-picture-container::after {
@@ -30,4 +30,108 @@
 
 .about-details-paragraph {
     width: 100%;
+}
+
+@media screen and (max-width: 765px) {
+    .profile-picture-container {
+        height: auto;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .profile-picture-container::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+    .profile-picture {
+        height: auto;
+        width: 40%;
+        border-radius: 50%;
+    }
+    
+    .about-details {
+        display: flex;
+        align-items: center;
+    }
+    
+    .about-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+    .about-details-paragraph {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .profile-picture-container {
+        height: auto;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .profile-picture-container::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+    .profile-picture {
+        height: auto;
+        width: 50%;
+        border-radius: 50%;
+    }
+    
+    .about-details {
+        display: flex;
+        align-items: center;
+    }
+    
+    .about-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+    .about-details-paragraph {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .profile-picture-container {
+        height: auto;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .profile-picture-container::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+    .profile-picture {
+        height: auto;
+        width: 100%;
+    }
+    
+    .about-details {
+        display: flex;
+        align-items: center;
+    }
+    
+    .about-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+    .about-details-paragraph {
+        width: 100%;
+    }
 }

@@ -13,3 +13,66 @@
     clear: both;
     display: table;       
 }
+
+@media screen and (max-width: 765px) {
+    .about-details {
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    .about-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .about-details {
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    .about-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .about-details {
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    .about-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+}
