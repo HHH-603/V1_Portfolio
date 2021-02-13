@@ -1,0 +1,19 @@
+.project-card {
+    height: auto;
+    width: auto;
+    flex: 1;
+}
+
+.project-card > .image-container {
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.project-card > .image-container > img {
+    width: 50%;
+}
+
+.card > .content {
+    padding: 0 1rem;
+}
