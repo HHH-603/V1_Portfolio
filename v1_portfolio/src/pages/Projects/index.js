@@ -19,7 +19,7 @@ const Projects = () => {
                         <img src={PWA} alt="pwa-budget-tracker" className="project-image"></img>
                     </div>
                     <div className="project-details">
-                        <h2 className="project-name">"PWA Budget Tracker?"</h2>
+                        <h2 className="project-name">"PWA Budget Tracker"</h2>
                         <p className="project-paragraph">Description: Resource where users can easily track their money (purchases and deposits), both online and offline.</p>
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, HTML5, Bootstrap, and MongoDB.</p>
                         <p className="project-paragraph-link">
