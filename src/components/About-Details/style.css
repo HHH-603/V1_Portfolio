@@ -1,10 +1,12 @@
 .about-details {
     height: auto;
-    margin: 2rem 11rem;
+    width: auto;
+    margin: 2rem;
     padding: 0;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    justify-content: center;
     overflow: hidden;
 }
 

@@ -36,9 +36,6 @@ const About = () => {
                     <div className="about-details">
                         <p className="about-details-paragraph">
                             My name is Hank, and I'm a web developer based in Charlotte, North Carolina. I specialize in building mobile-first MERN web applications and websites, and love building products that have clean code and engaging user experiences.
-                        </p>
-                        <br />
-                        <p className="about-details-paragraph">
                             I am a graduate of the University of North Carolina at Charlotte's Full Stack Web Development program, and previously worked at EveryAction, a nonprofit CRM/SaaS company in Washington, DC. A few technologies and frameworks that I've been working with recently are:
                         </p>
                     </div>

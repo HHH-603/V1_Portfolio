@@ -7,3 +7,15 @@
     margin: 1rem 2rem;
     border: .1rem solid #0D0D0D;
 }
+
+@media screen and (max-width: 595px) {
+    .project-card {
+        height: 50%;
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+        margin: 1rem 0;
+        border: .1rem solid #0D0D0D;
+    }
+}

@@ -10,8 +10,12 @@
     width: 50rem;
 }
 
-.project-paragraph {
+.project-details {
     margin: 1rem;
+}
+
+.project-paragraph {
+    padding: 1rem;
     text-align: left;
     font-style: .5rem;
 }
@@ -27,4 +31,12 @@
 
 .project-paragraph-link > a:hover {
     border-bottom: .1rem solid #0D0D0D;
+}
+
+@media screen and (max-width: 595px) {
+    .project-paragraph,
+    .project-paragraph-link {
+        font-size: .5rem;
+        line-height: 1.5rem;
+    }
 }

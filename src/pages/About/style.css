@@ -18,8 +18,8 @@
 
 
 .about-details {
-    display: flex;
-    align-items: center;
+    margin: 2rem 11rem;
+    justify-content: center;
 }
 
 .about-details::after {
@@ -28,7 +28,39 @@
     display: table;       
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 1020px) {
+    .profile-picture-container {
+        height: auto;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .profile-picture-container::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+    .profile-picture {
+        height: auto;
+        width: 25%;
+        border-radius: 50%;
+    }
+    
+    .about-details {
+        margin: 2rem 11rem;
+        justify-content: center;
+    }
+    
+    .about-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+    
+}
+
+@media screen and (max-width: 680px) {
     .profile-picture-container {
         height: auto;
         text-align: center;
@@ -48,8 +80,8 @@
     }
     
     .about-details {
-        display: flex;
-        align-items: center;
+        margin: 2rem 5rem;
+        justify-content: center;
     }
     
     .about-details::after {
@@ -75,13 +107,13 @@
     
     .profile-picture {
         height: auto;
-        width: 60%;
+        width: 50%;
         border-radius: 50%;
     }
     
     .about-details {
-        display: flex;
-        align-items: center;
+        margin: 2rem;
+        justify-content: center;
     }
     
     .about-details::after {
@@ -110,8 +142,8 @@
     }
     
     .about-details {
-        display: flex;
-        align-items: center;
+        margin: 2rem;
+        justify-content: center;
     }
     
     .about-details::after {

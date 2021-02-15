@@ -3,7 +3,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin: 2rem 0;
+    margin: 0 11rem;
     height: auto;
 }
 
@@ -11,44 +11,13 @@
     padding: 0 1rem
 }
 
-@media screen and (max-width: 765px) {
-    .skill-set {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 2rem 0;
-        height: auto;
-    }
-    
-    .skill {
-        padding: 0 1rem;
-    }
-}
-
-@media screen and (max-width: 370px) {
-    .skill-set {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 1rem 0;
-        height: auto;
-    }
-    
-    .skill {
-        padding: 0 1rem;
-    }
-}
-
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 680px) {
     .skill-set {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
         justify-content: space-evenly;
-        margin-top: 0;
-        margin-bottom: 1.5rem;
+        margin: 0 11rem;
         height: auto;
     }
     
