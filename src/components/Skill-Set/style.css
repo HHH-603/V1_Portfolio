@@ -11,7 +11,7 @@
     padding: 0 3rem
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 844px) {
     .skill-set {
         display: flex;
         flex-flow: column wrap;

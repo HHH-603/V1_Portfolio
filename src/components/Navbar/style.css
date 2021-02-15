@@ -12,6 +12,7 @@
     color: #0D0D0D;
     margin: 0 .5rem;
     padding: 0;
+    font-weight: 700;
 }
 
 .navbar__nav-link:last-child {

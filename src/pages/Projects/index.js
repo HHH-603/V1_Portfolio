@@ -56,12 +56,14 @@ const Projects = () => {
                         <h2 className="project-name">"PWA Budget Tracker"</h2>
                         <p className="project-paragraph">Description: Resource where users can easily track their money (purchases and deposits), both online and offline.</p>
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, HTML5, Bootstrap, and MongoDB.</p>
-                        <p className="project-paragraph-link">
-                            <a href="https://quiet-temple-68742.herokuapp.com/">Deployed Application</a>
-                        </p>
-                        <p className="project-paragraph-link">
-                            <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
-                        </p>
+                        <div className="project-paragraph-link-container">
+                            <p className="project-paragraph-link">
+                                <a href="https://quiet-temple-68742.herokuapp.com/">Deployed Application</a>
+                            </p>
+                            <p className="project-paragraph-link">
+                                <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
+                            </p>
+                        </div>
                     </div>
                     <br />
                 </ProjectCard>
