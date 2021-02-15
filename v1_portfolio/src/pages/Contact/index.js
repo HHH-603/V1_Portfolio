@@ -1,8 +1,5 @@
 import React from "react";
 import ContactContainer from "../../components/Contact-Container";
-import Email from "../../images/mail-line.svg";
-import GitHub from "../../images/github-line.svg";
-import LinkedIn from "../../images/linkedin-box-line.svg";
 import "./style.css";
 import ContactDetails from "../../components/Contact-Details";
 import Header from "../../components/Header";
