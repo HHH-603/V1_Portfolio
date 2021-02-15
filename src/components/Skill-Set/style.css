@@ -2,13 +2,13 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0 11rem;
     height: auto;
 }
 
 .skill {
-    padding: 0 1rem
+    padding: 0 3rem
 }
 
 @media screen and (max-width: 680px) {
@@ -16,8 +16,8 @@
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        justify-content: space-evenly;
-        margin: 0 11rem;
+        justify-content: center;
+        margin: 0;
         height: auto;
     }
     
