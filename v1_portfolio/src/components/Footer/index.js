@@ -9,15 +9,15 @@ const Footer = () => {
         <>
             <footer className="footer">
                 <a href="mailto:hholmes726@gmail.com">
-                    <img src={Email} alt="email-icon" className="icon" />
+                    <img src={Email} alt="email-icon" className="footer-icon" />
                 </a>
             &nbsp;
             <a href="https://www.linkedin.com/in/henryhamiltonholmes/">
-                    <img src={LinkedIn} alt="linkedin-icon" className="icon" />
+                    <img src={LinkedIn} alt="linkedin-icon" className="footer-icon" />
                 </a>
             &nbsp;
             <a href="https://github.com/HHH-603">
-                    <img src={GitHub} alt="github-icon" className="icon" />
+                    <img src={GitHub} alt="github-icon" className="footer-icon" />
                 </a>
             &nbsp;
             <p className="footer-text">

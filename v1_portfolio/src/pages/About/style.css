@@ -28,10 +28,6 @@
     display: table;       
 }
 
-.about-details-paragraph {
-    width: 100%;
-}
-
 @media screen and (max-width: 765px) {
     .profile-picture-container {
         height: auto;
@@ -62,9 +58,6 @@
         display: table;       
     }
     
-    .about-details-paragraph {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 595px) {
@@ -96,10 +89,6 @@
         clear: both;
         display: table;       
     }
-    
-    .about-details-paragraph {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 420px) {
@@ -129,9 +118,5 @@
         content: "";
         clear: both;
         display: table;       
-    }
-    
-    .about-details-paragraph {
-        width: 100%;
-    }
+    }   
 }

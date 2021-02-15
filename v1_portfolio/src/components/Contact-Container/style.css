@@ -1,13 +1,13 @@
-.project-container {
+.contact-container {
     height: auto;
     width: 100%;
     display: flex;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
 }
 
-.project-container::after {
+.contact-container::after {
     content: "";
     clear: both;
     display: table;       

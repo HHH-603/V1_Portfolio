@@ -1,0 +1,82 @@
+.contact-details {
+    text-align: center;
+    height: auto;
+    margin: 2rem 11rem;
+    padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    overflow: hidden;
+}
+
+.contact-details::after {
+    content: "";
+    clear: both;
+    display: table;       
+}
+
+@media screen and (max-width: 765px) {
+    .contact-details {
+        text-align: center;
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    .contact-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .contact-details {
+        text-align: center;
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    .contact-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .contact-details {
+        text-align: center;
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    .contact-details::after {
+        content: "";
+        clear: both;
+        display: table;       
+    }
+}
