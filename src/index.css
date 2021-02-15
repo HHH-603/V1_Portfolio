@@ -1,38 +1,58 @@
-  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: initial;
-  }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: initial;
+}
   
-  html {
-    font-family: "josefin sans", sans-serif;
-    font-size: 62.5%;
-    color: #0D0D0D;
-    margin: 0;
-    padding: 0;
-    background-color: #F2F2F2;
-  }
+html {
+  font-family: "josefin sans", sans-serif;
+  font-size: 62.5%;
+  color: #0D0D0D;
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F2;
+}
   
-  body {
-    box-sizing: border-box;
-  }
+body {
+  box-sizing: border-box;
+}
   
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+  
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+  
+p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 595px) {
   h1 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+    
+  h2 {
     text-align: center;
     font-size: 3rem;
     line-height: 4rem;
   }
-  
-  h2 {
-    text-align: center;
+    
+  p {
+    text-align: left;
     font-size: 2rem;
     line-height: 3rem;
   }
-  
-  p {
-    text-align: justify;
-    font-size: 1rem;
-    line-height: 2rem;
-  }
+}
