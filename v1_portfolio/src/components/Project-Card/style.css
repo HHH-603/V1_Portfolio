@@ -1,6 +1,6 @@
 .project-card {
-    max-height: auto;
-    max-width: 30%;
+    max-height: 50rem;
+    max-width: 50rem;
     display: flex;
     flex-flow: row wrap;
     flex: 1;

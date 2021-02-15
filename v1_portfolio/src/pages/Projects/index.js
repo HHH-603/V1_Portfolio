@@ -19,7 +19,7 @@ const Projects = () => {
                         <img src={PWA} alt="pwa-budget-tracker" className="project-image"></img>
                     </div>
                     <div className="project-details">
-                        <h2 className="project-name">"PWA Budget Tracker"</h2>
+                        <h2 className="project-name">"PWA Budget Tracker?"</h2>
                         <p className="project-paragraph">Description: Resource where users can easily track their money (purchases and deposits), both online and offline.</p>
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, HTML5, Bootstrap, and MongoDB.</p>
                         <p className="project-paragraph-link">
@@ -28,6 +28,7 @@ const Projects = () => {
                         <p className="project-paragraph-link">
                             <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
                         </p>
+                        <br />
                     </div>
                 </ProjectCard>
                 <ProjectCard>
@@ -44,6 +45,7 @@ const Projects = () => {
                         <p className="project-paragraph-link">
                             <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
                         </p>
+                        <br />
                     </div>
                 </ProjectCard>
                 <ProjectCard>
@@ -61,6 +63,7 @@ const Projects = () => {
                             <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
                         </p>
                     </div>
+                    <br />
                 </ProjectCard>
             </ProjectContainer>
         </>
