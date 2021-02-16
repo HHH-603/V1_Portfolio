@@ -12,6 +12,10 @@
 
 .project-details {
     margin: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-paragraph {
