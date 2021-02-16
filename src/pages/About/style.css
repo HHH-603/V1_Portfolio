@@ -16,7 +16,6 @@
     border-radius: 50%;
 }
 
-
 .about-details {
     margin: 1rem 11rem;
     justify-content: center;
@@ -26,6 +25,16 @@
     content: "";
     clear: both;
     display: table;       
+}
+
+.about-link {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-weight: 700;
+}
+
+.about-link:hover {
+    border-bottom: .1rem solid #0D0D0D;
 }
 
 @media screen and (max-width: 1020px) {
