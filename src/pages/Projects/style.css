@@ -1,22 +1,6 @@
-.image-container {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-}
-
 .project-image {
     height: 25rem;
     width: 50rem;
-}
-
-.project-details {
-    margin: 1rem;
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 .project-paragraph {
