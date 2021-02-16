@@ -19,7 +19,7 @@ const Projects = () => {
                         <img src={PWA} alt="pwa-budget-tracker" className="project-image"></img>
                     </div>
                     <div className="project-details">
-                        <h2 className="project-name">"PWA Budget Tracker"</h2>
+                        <h2 className="project-name">"Budget Tracker Web Application"</h2>
                         <p className="project-paragraph">Description: Resource where users can easily track their money (purchases and deposits), both online and offline.</p>
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, HTML5, Bootstrap, and MongoDB.</p>
                         <p className="project-paragraph-link">
@@ -33,29 +33,29 @@ const Projects = () => {
                 </ProjectCard>
                 <ProjectCard>
                     <div className="image-container">
-                        <img src={NoteTaker} alt="pwa-budget-tracker" className="project-image"></img>
+                        <img src={NoteTaker} alt="note-taker" className="project-image"></img>
                     </div>
                     <div className="project-details">
-                        <h2 className="project-name">"PWA Budget Tracker"</h2>
-                        <p className="project-paragraph">Description: Resource where users can easily track their money (purchases and deposits), both online and offline.</p>
-                        <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, HTML5, Bootstrap, and MongoDB.</p>
+                        <h2 className="project-name">"Note Taker Web Application"</h2>
+                        <p className="project-paragraph">Description: Resource where users can write, save, and delete notes.</p>
+                        <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, Node.js, HTML5, and Bootstrap.</p>
                         <p className="project-paragraph-link">
-                            <a href="https://quiet-temple-68742.herokuapp.com/">Deployed Application</a>
+                            <a href="https://hank-holmes-note-taker.herokuapp.com/">Deployed Application</a>
                         </p>
                         <p className="project-paragraph-link">
-                            <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
+                            <a href="https://github.com/HHH-603/Note-Taker">GitHub Repository</a>
                         </p>
                         <br />
                     </div>
                 </ProjectCard>
                 <ProjectCard>
                     <div className="image-container">
-                        <img src={README} alt="pwa-budget-tracker" className="project-image"></img>
+                        <img src={README} alt="readme-generator" className="project-image"></img>
                     </div>
                     <div className="project-details">
-                        <h2 className="project-name">"PWA Budget Tracker"</h2>
-                        <p className="project-paragraph">Description: Resource where users can easily track their money (purchases and deposits), both online and offline.</p>
-                        <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, HTML5, Bootstrap, and MongoDB.</p>
+                        <h2 className="project-name">"README Generator"</h2>
+                        <p className="project-paragraph">Description: Resource that generates a fully formatted README.md file based on user responses to questions that are displayed via the CLI.</p>
+                        <p className="project-paragraph">Technologies/Frameworks Used: JavaScript and Node.js.</p>
                         <div className="project-paragraph-link-container">
                             <p className="project-paragraph-link">
                                 <a href="https://quiet-temple-68742.herokuapp.com/">Deployed Application</a>
