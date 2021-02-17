@@ -9,13 +9,10 @@
     font-style: .5rem;
 }
 
-.project-paragraph-link-container {
-    padding: 1rem 0;
-}
-
 .project-paragraph-link {
     text-align: center;
     font-weight: 700;
+    line-height: 3.5rem;
 }
 
 .project-paragraph-link > a {

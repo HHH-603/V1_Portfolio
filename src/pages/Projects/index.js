@@ -18,34 +18,32 @@ const Projects = () => {
                 </Header>
                 <ProjectCard>
                     <ImageContainer>
-                        <img src={PWA} alt="pwa-budget-tracker" className="project-image"></img>
+                        <a href="https://quiet-temple-68742.herokuapp.com/" className="deployed-link">
+                            <img src={PWA} alt="pwa-budget-tracker" className="project-image"></img>
+                        </a>
                     </ImageContainer>
                     <ProjectDetails>
                         <h2 className="project-name">"Budget Tracker Web Application"</h2>
                         <p className="project-paragraph">Description: Resource where users can easily track their money (purchases and deposits), both online and offline.</p>
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, HTML5, Bootstrap, and MongoDB.</p>
                         <p className="project-paragraph-link">
-                            <a href="https://quiet-temple-68742.herokuapp.com/">Deployed Application</a>
-                        </p>
-                        <p className="project-paragraph-link">
-                            <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
+                            <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker" className="repository-link">GitHub Repository</a>
                         </p>
                         <br />
                     </ProjectDetails>
                 </ProjectCard>
                 <ProjectCard>
                     <ImageContainer>
-                        <img src={NoteTaker} alt="note-taker" className="project-image"></img>
+                        <a href="https://hank-holmes-note-taker.herokuapp.com/" className="deployed-link">
+                            <img src={NoteTaker} alt="note-taker" className="project-image"></img>
+                        </a>
                     </ImageContainer>
                     <ProjectDetails>
                         <h2 className="project-name">"Note Taker Web Application"</h2>
                         <p className="project-paragraph">Description: Resource where users can write, save, and delete notes.</p>
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript, Node.js, HTML5, and Bootstrap.</p>
                         <p className="project-paragraph-link">
-                            <a href="https://hank-holmes-note-taker.herokuapp.com/">Deployed Application</a>
-                        </p>
-                        <p className="project-paragraph-link">
-                            <a href="https://github.com/HHH-603/Note-Taker">GitHub Repository</a>
+                            <a href="https://github.com/HHH-603/Note-Taker" className="repository-link">GitHub Repository</a>
                         </p>
                         <br />
                     </ProjectDetails>
@@ -60,10 +58,7 @@ const Projects = () => {
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript and Node.js.</p>
                         <div className="project-paragraph-link-container">
                             <p className="project-paragraph-link">
-                                <a href="https://quiet-temple-68742.herokuapp.com/">Deployed Application</a>
-                            </p>
-                            <p className="project-paragraph-link">
-                                <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
+                                <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker" className="repository-link">GitHub Repository</a>
                             </p>
                         </div>
                     </ProjectDetails>
