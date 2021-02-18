@@ -56,11 +56,9 @@ const Projects = () => {
                         <h2 className="project-name">"README Generator"</h2>
                         <p className="project-paragraph">Description: Resource that generates a fully formatted README.md file based on user responses to questions that are displayed via the CLI.</p>
                         <p className="project-paragraph">Technologies/Frameworks Used: JavaScript and Node.js.</p>
-                        <div className="project-paragraph-link-container">
-                            <p className="project-paragraph-link">
-                                <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker" className="repository-link">GitHub Repository</a>
-                            </p>
-                        </div>
+                        <p className="project-paragraph-link">
+                            <a href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker" className="repository-link">GitHub Repository</a>
+                        </p>
                     </ProjectDetails>
                     <br />
                 </ProjectCard>
