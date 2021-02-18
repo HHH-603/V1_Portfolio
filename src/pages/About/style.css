@@ -1,7 +1,7 @@
 .profile-picture-container {
     height: auto;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: .5rem;
 }
 
 .profile-picture-container::after {
