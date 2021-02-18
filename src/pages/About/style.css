@@ -12,7 +12,7 @@
 
 .profile-picture {
     height: auto;
-    width: 20%;
+    width: 15%;
     border-radius: 50%;
 }
 
@@ -50,12 +50,6 @@
         display: table;       
     }
     
-    .profile-picture {
-        height: auto;
-        width: 25%;
-        border-radius: 50%;
-    }
-    
     .about-details {
         margin: 1rem 11rem;
         justify-content: center;
@@ -84,7 +78,7 @@
     
     .profile-picture {
         height: auto;
-        width: 40%;
+        width: 30%;
         border-radius: 50%;
     }
     
@@ -116,7 +110,7 @@
     
     .profile-picture {
         height: auto;
-        width: 50%;
+        width: 40%;
         border-radius: 50%;
     }
     
@@ -147,7 +141,7 @@
     
     .profile-picture {
         height: auto;
-        width: 100%;
+        width: 45%;
     }
     
     .about-details {
