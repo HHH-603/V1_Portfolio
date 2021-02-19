@@ -5,10 +5,7 @@
     flex-flow: row wrap;
     flex: 1;
     margin: 1rem 2rem;
-}
-
-.project-card:last-child {
-    margin-bottom: 5rem;
+    background-color: #0D0D0D;
 }
 
 @media screen and (max-width: 595px) {
@@ -24,16 +21,4 @@
     .project-card:last-child {
         margin-bottom: 5.5rem;
     }    
-}
-
-@media screen and (max-width: 379px) {
-    .project-card:last-child {
-        margin-bottom: 7.5rem;
-    }
-}
-
-@media screen and (max-width: 342px) {
-    .project-card:last-child {
-        margin-bottom: 10rem;
-    }
 }

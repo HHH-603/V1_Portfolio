@@ -3,10 +3,15 @@
     width: 50rem;
 }
 
+.project-name {
+    color: #F2F2F2;
+}
+
 .project-paragraph {
     padding: 1rem;
     text-align: left;
     font-style: .5rem;
+    color: #F2F2F2;
 }
 
 .project-paragraph-link {
@@ -17,11 +22,11 @@
 
 .project-paragraph-link > a {
     text-decoration: none;
-    color: #0D0D0D;
+    color: #F2F2F2;
 }
 
 .project-paragraph-link > a:hover {
-    border-bottom: .1rem solid #0D0D0D;
+    border-bottom: .1rem solid #F2F2F2;
 }
 
 @media screen and (max-width: 595px) {
