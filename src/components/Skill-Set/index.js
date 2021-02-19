@@ -7,6 +7,7 @@ const SkillSet = () => {
             <div className="skill"><p className="skill-text">JavaScript</p></div>
             <div className="skill"><p className="skill-text">React</p></div>
             <div className="skill"><p className="skill-text">Node.js</p></div>
+            <div className="skill"><p className="skill-set">TypeScript</p></div>
             <div className="skill"><p className="skill-text">MongoDB</p></div>
             <div className="skill"><p className="skill-text">MySQL</p></div>
         </div>

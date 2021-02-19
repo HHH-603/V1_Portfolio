@@ -17,9 +17,11 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
         </FlexContainer>
+        {/* <br />
         <br />
         <br />
         <br />
+        <br /> */}
         <Footer />
       </>
     </Router>

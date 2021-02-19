@@ -3,12 +3,12 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    margin: 0 11rem;
+    margin: 0rem;
     height: auto;
 }
 
 .skill {
-    padding: 0 3rem
+    padding: 0 1rem
 }
 
 @media screen and (max-width: 844px) {
